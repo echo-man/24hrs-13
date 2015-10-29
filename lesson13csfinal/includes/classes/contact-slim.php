@@ -5,21 +5,18 @@
  // copyright  Copyright (c) 2011 Smithside Auctions
  // @license    GNU General Public License
  // @since      Since Release 1.0
-
+	
+	// class
 	class Contact {
 		
+		// properties
 		public $first_name;
-			// string
 		public $last_name;
-			//string
 		public $position;
-			// string
 		public $email;
-			// string
 		public $phone;
-			// string
 		
-		// Concatenating first and last names
+		// function to concatenating first and last names
 		 
 		public function name() {
 		$name = $this->first_name . ' ' . $this->last_name;

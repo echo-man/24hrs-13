@@ -6,17 +6,14 @@
 	// @license    GNU General Public License
 	// @since      Since Release 1.0
 	 
-
+	// class
 	class Cellphone {
 		
+		// properties
 		public $phoneNumber;
-		
 		public $model;
-		
 		public $color;
-		
 		public $contacts;
-		
 		public $songs;
 		
 		
